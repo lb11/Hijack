@@ -23,6 +23,7 @@ public class MDatas implements AbstractDB {
 
 	// 表单创建的语句。
 	public static String create_table_chathistory = "create table tabledatas("//
+			
 			+ "number varchar(20) not null primary key,"// 编号
 			+ "whichgroup varchar(20) not null"// 所在的分组。
 			+ ");";
