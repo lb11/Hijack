@@ -61,7 +61,7 @@ public class MListAdapter extends BaseAdapter {
 		return convertView;
 	}
 
-	private class ViewHolder {
+	public class ViewHolder {
 		private TextView text;
 	}
 
